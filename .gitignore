@@ -1,0 +1,18 @@
+# Sensitive files - DO NOT COMMIT
+*.pass
+*.tokens
+*_oauth2.cfg
+gatech.tokens
+gmail.pass
+
+# Cache and temporary files
+cache/
+tmp/
+certificates
+
+# Account files with credentials
+account.gmail
+account.gatech
+
+# Personal aliases
+aliases
