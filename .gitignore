@@ -2,17 +2,20 @@
 *.pass
 *.tokens
 *_oauth2.cfg
-gatech.tokens
-gmail.pass
+.neomutt/*.pass
+.neomutt/*.tokens
+.neomutt/*_oauth2.cfg
+.neomutt/account.gmail
+.neomutt/account.gatech
 
 # Cache and temporary files
 cache/
+.neomutt/cache/
 tmp/
+.neomutt/tmp/
 certificates
-
-# Account files with credentials
-account.gmail
-account.gatech
+.neomutt/certificates
 
 # Personal aliases
 aliases
+.neomutt/aliases
